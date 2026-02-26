@@ -1,6 +1,6 @@
-# The King's Hand: Thomas Cromwell and letters at the Court of Henry VIII
+# The King's Hand: Thomas Cromwell and letters at the court of Henry VIII
 
-This repository accompanies the book <i>The King's Hand: Thomas Cromwell and letters at the Court of Henry VIII</i> (Manchester University Press) by Caitlin Burge.
+This repository accompanies the book <i>The King's Hand: Thomas Cromwell and letters at the court of Henry VIII</i> (Manchester University Press) by Caitlin Burge.
 
 Each chapter utilises a separate piece of code, as listed below.
 
