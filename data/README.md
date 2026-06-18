@@ -1,4 +1,4 @@
-<h2>The King's Hand - Correspondence Data</h2>
+<h2>The King's Hand - Correspondence Network Data</h2>
 
 The dataset here is a subset of the Tudor Networks of Power Correspondence Dataset by Ruth Ahnert, Sebastian Ahnert, Jose Crese, and Lotte Fickers. Full details of the original dataset, including Creative Commons Licence and dataset creation description, can be found at the <a href="https://github.com/tudor-networks-of-power/code/tree/main/TNP_DATA">Tudor Networks of Power Github Repository</a>. 
 
