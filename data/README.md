@@ -1,3 +1,5 @@
+<h2>The King's Hand - Correspondence Data</h2>
+
 The dataset here is a subset of the Tudor Networks of Power Correspondence Dataset by Ruth Ahnert, Sebastian Ahnert, Jose Crese, and Lotte Fickers. Full details of the original dataset, including Creative Commons Licence and dataset creation description, can be found at the <a href="https://github.com/tudor-networks-of-power/code/tree/main/TNP_DATA">Tudor Networks of Power Github Repository</a>. 
 
 These data consist of a directed edgelist (writer, recipient) of all known letters contained in _Letters and Papers, Foreign and Domestic, Henry VIII_ from 1522 to 1547, covering Thomas Cromwell's period in the State Papers through to the end of Henry VIII's reign. These use unique identifiers to refer to indivdual writers in the correspondence, applied as part of an extensive disambiguation and dedupliation process undertaken by Ahnert and Ahnert (see <a href="https://global.oup.com/academic/product/tudor-networks-of-power-9780198858973?cc=gb&lang=en&#"><i>Tudor Networks of Power</i></a>).
