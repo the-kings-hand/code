@@ -7,7 +7,7 @@ These data consist of a directed edgelist (writer, recipient) of all known lette
 This dataset contains:
 <ul>
 <li><code>all_letters.csv</code> - directed edgelist of all letters used throughout, containing just writer and recipient</li>
-<li><code>people_labels.tsv</code> - Key for the person IDs used (from <a href="https://github.com/tudor-networks-of-power/code/tree/main/TNP_DATA">Tudor Networks of Power Correspondence Dataset</a>)</li>
+<li><code>full_person_list.csv</code> - Key for the person IDs used (from <a href="https://github.com/tudor-networks-of-power/code/tree/main/TNP_DATA">Tudor Networks of Power Correspondence Dataset</a>)</li>
 </ul>
 If using this dataset and associated code, please cite:
 
