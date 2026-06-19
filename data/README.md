@@ -8,6 +8,7 @@ This dataset contains:
 <ul>
 <li><code>all_letters.csv</code> - directed edgelist of all letters used throughout, containing just writer and recipient</li>
 <li><code>full_person_list.csv</code> - Key for the person IDs used (from <a href="https://github.com/tudor-networks-of-power/code/tree/main/TNP_DATA">Tudor Networks of Power Correspondence Dataset</a>)</li>
+<li><code>Years [folder]</code> - individual csvs of letters in each year in the dataset, necessary for some code</li>
 </ul>
 If using this dataset and associated code, please cite:
 
