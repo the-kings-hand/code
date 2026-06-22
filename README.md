@@ -9,22 +9,20 @@ Using epistolary networks built from over 30,000 letters in the State Papers of 
 Each chapter utilises a separate piece of code, as listed below (note: each file name is prefaced by its respective chapter number).
 
 <h3>Chapter 2. A rise to power: Cromwell, Wolsey, and shared epistolary networks, 1522-34</h3>
-FILE(S): `cumulative_contacts.py`; `overlap_contacts.py`
-The first part, <code>cumulative_contacts.py</code> , identifies Thomas Cromwell's correspondents for each year between 1522 and 1533, adding them in successive graphs to calculate number of returning or consistent contacts in cumulative years.
+FILE(S): <code>cumulative_contacts.py</code>; <code>overlap_contacts.py</code>
+</br>       The first part, <code>cumulative_contacts.py</code> , identifies Thomas Cromwell's correspondents for each year between 1522 and 1533, adding them in successive graphs to calculate number of returning or consistent contacts in cumulative years. The second part, <code>overlap_contacts.py</code> , identifies both Thomas Cromwell and Thomas Wolsey's correspondents for each year between 1522 and 1533, adding them in successive graphs to calculate the number of shared contacts over cumulative years. This also creates a Gephi file for each cumulative graph.
 
-The second part, <code>overlap_contacts.py</code> , identifies both Thomas Cromwell and Thomas Wolsey's correspondents for each year between 1522 and 1533, adding them in successive graphs to calculate the number of shared contacts over cumulative years. This also creates a Gephi file for each cumulative graph.
-
-<b>Chapter 3. King and minister: Modelling data and power dynamics</b>
-<br/>FILE(S): `king_references.py`
+<h3>Chapter 3. King and minister: Modelling data and power dynamics</h3>
+FILE(S): <code>king_references.py</code>
 <br/>       This file establishes
 
-<b>Chapter 4. The court lynchpin: Cromwell and network functionality</b>
-<br/>FILE(S): `removal_model.py`
+<h3>Chapter 4. The court lynchpin: Cromwell and network functionality</h3>
+FILE(S): <code>removal_model.py</code>
 
-<b>Chapter 5. The King's gatekeeper: Intermediaries in the network</b>
-<br/>FILE(S): `gatekeeper_triads.py` (written in collaboration with Dr Sebastian Ahnert, University of Cambridge)
+<h3>Chapter 5. The King's gatekeeper: Intermediaries in the network</h3>
+FILE(S): <code>gatekeeper_triads.py</code> (written in collaboration with Dr Sebastian Ahnert, University of Cambridge)
 
-<b>Chapter 7. Cromwell's legacy: Administrative structures in the network</b>
-<br/>FILE(S): `model_comparison.py`
+<h3>Chapter 7. Cromwell's legacy: Administrative structures in the network</h3>
+FILE(S): <code>model_comparison.py</code>
 
 <i>All code here requires NetworkX and has been tested on Python 3.9.6. The current working directory needs to be set as the-kings-hand/code for code and file imports to operate correctly.</i>
