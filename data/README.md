@@ -13,6 +13,12 @@ This dataset contains:
 <li><code>full_person_list.csv</code> - Key for the person IDs used (from <a href="https://github.com/tudor-networks-of-power/code/tree/main/TNP_DATA">Tudor Networks of Power Correspondence Dataset</a>)</li>
 <li><code>Years [folder]</code> - individual csvs of letters in each year in the dataset, necessary for some code</li>
 </ul>
+
+As a subset of the <i>Tudor Networks of Power - Correspondence Network Data</i>, this data is released under a Creative Commons BY-NC-SA 4.0 license, which:
+- requires attribution
+- permits distribution, remixing, adaptation, or building upon this data as long as the modified material is licensed under identical terms
+- only permits non-commercial uses of the work
+
 If using this dataset and associated code, please cite:
 
 Caitlin Burge, "The King's Hand: Thomas Cromwell and Letters at the court of Henry VIII", Manchester University Press, 2027.
