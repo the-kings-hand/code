@@ -8,9 +8,10 @@ Using epistolary networks built from over 30,000 letters in the State Papers of 
 
 Each chapter utilises a separate piece of code, as listed below (note: each file name is prefaced by its respective chapter number).
 
-<h4>Chapter 2. A rise to power: Cromwell, Wolsey, and shared epistolary networks, 1522-34</h4>
+<h3>Chapter 2. A rise to power: Cromwell, Wolsey, and shared epistolary networks, 1522-34</h3>
+
 <br/>FILE(S): `cumulative_contacts.py`; `overlap_contacts.py`
-<br/>The first part, <code>cumulative_contacts.py</code> , identifies Thomas Cromwell's correspondents for each year between 1522 and 1533, adding them in successive graphs to calculate number of returning or consistent contacts in cumulative years.
+The first part, <code>cumulative_contacts.py</code> , identifies Thomas Cromwell's correspondents for each year between 1522 and 1533, adding them in successive graphs to calculate number of returning or consistent contacts in cumulative years.
 
 The second part, <code>overlap_contacts.py</code> , identifies both Thomas Cromwell and Thomas Wolsey's correspondents for each year between 1522 and 1533, adding them in successive graphs to calculate the number of shared contacts over cumulative years. This also creates a Gephi file for each cumulative graph.
 
