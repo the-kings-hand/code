@@ -31,3 +31,5 @@ Each chapter utilises a separate piece of code, as listed below (note: each file
 <br/>
 <br/>
 <i>All code here requires NetworkX and has been tested on Python 3.9.6. The current working directory needs to be set as the-kings-hand/code for code and file imports to operate correctly.</i>
+<br/>
+© 2026. This work is licensed under a CC BY-NC-SA 4.0 license. 
