@@ -12,15 +12,15 @@ Each chapter utilises a separate piece of code, as listed below (note: each file
 `cumulative_contacts.py`; `overlap_contacts.py`
 
 <b>Chapter 3. King and minister: Modelling data and power dynamics</b>
-`king_references.py`
+<br/> `king_references.py`
 
 <b>Chapter 4. The court lynchpin: Cromwell and network functionality</b>
-`removal_model.py`
+<br/>`removal_model.py`
 
 <b>Chapter 5. The King's gatekeeper: Intermediaries in the network</b>
-`gatekeeper_triads.py` (written in collaboration with Dr Sebastian Ahnert, University of Cambridge)
+<br/>`gatekeeper_triads.py` (written in collaboration with Dr Sebastian Ahnert, University of Cambridge)
 
 <b>Chapter 7. Cromwell's legacy: Administrative structures in the network</b>
-`model_comparison.py`
+<br/>`model_comparison.py`
 
 <i>All code here requires NetworkX and has been tested on Python 3.9.6</i>
