@@ -28,4 +28,6 @@ Each chapter utilises a separate piece of code, as listed below (note: each file
 <b>FILE(S):</b> <code>model_comparison.py</code>
 <br/>This file compares the model created in <code>removal_model.py</code> with a network of correspondence from 1540-1547 to identify which relationships with the king had been lost or survived after Thomas Cromwell's death in 1540, the replacement intermediaries, and intermediaries on paths new to the post-1540 network.
 
+<br/>
+<br/>
 <i>All code here requires NetworkX and has been tested on Python 3.9.6. The current working directory needs to be set as the-kings-hand/code for code and file imports to operate correctly.</i>
