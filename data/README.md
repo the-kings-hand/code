@@ -6,6 +6,9 @@ These data consist of a directed edgelist (writer, recipient) of all known lette
 
 This dataset contains:
 <ul>
+<li><code>1534-1540.csv</code> - directed edgelist of letters covering Thomas Cromwell's service under Henry VIII, containing just writer and recipient (for Chapters 2 - 4)</li>
+<li><code>Jan-July 1540.csv</code> - directed edgelist of letters covering Thomas Cromwell's last six months in power, containing just writer and recipient (for Chapter 5)</li>
+<li><code>1540-1547.csv</code> - directed edgelist of letters covering the last years of Henry VIII's reign after the death of Thomas Cromwell, containing just writer and recipient (for Chapter 7)</li>
 <li><code>all_letters.csv</code> - directed edgelist of all letters used throughout, containing just writer and recipient</li>
 <li><code>full_person_list.csv</code> - Key for the person IDs used (from <a href="https://github.com/tudor-networks-of-power/code/tree/main/TNP_DATA">Tudor Networks of Power Correspondence Dataset</a>)</li>
 <li><code>Years [folder]</code> - individual csvs of letters in each year in the dataset, necessary for some code</li>

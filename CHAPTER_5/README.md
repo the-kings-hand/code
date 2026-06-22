@@ -1,1 +1,0 @@
-<i>If running this code in a terminal application, make sure the working directory is "CHAPTER_5" in order for it to open the correct files</i>
