@@ -14,6 +14,8 @@ This dataset contains:
 <li><code>Years [folder]</code> - individual csvs of letters in each year in the dataset, necessary for some code</li>
 </ul>
 
+------------
+
 As a subset of the <i>Tudor Networks of Power - Correspondence Network Data</i>, this data is released under a Creative Commons BY-NC-SA 4.0 license, which:
 - requires attribution
 - permits distribution, remixing, adaptation, or building upon this data as long as the modified material is licensed under identical terms
