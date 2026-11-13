@@ -22,7 +22,7 @@ neighbours = set(G.neighbors('32545'))
 for i in range(1523,1542):
 	Cromwell_neighbours = set(G.neighbors('32545'))
 	print('\n' + str(i-1), len(Cromwell_neighbours))
-	with open(str(str((Path.cwd()).parent) + '/data/Years/' + str(i) + '.csv'),'r') as edgescsv: #edgelist
+	with open(str(str((Path.cwd())) + '/data/Years/' + str(i) + '.csv'),'r') as edgescsv: #edgelist
 		edgereader = csv.reader(edgescsv) 
 		edges = [tuple(e) for e in edgereader][1:]
 	update = nx.Graph()
