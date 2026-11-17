@@ -10,23 +10,12 @@ with open(str(Path.cwd()) + '/data/1534-1540.csv','r') as edgescsv: #opens the f
 with open(str(Path.cwd()) + '/data/full_person_list.csv','r') as nodescsv: #nodelist
 	nodereader = csv.reader(nodescsv)
 	nodes = [n for n in nodereader][1:]
-	
-node_names = [n[0] for n in nodes]
+
+G = nx.MultiDiGraph()
+G.add_edges_from(edges, medium="letter", weight=1)
 hist_name_dict = {}
 for node in nodes:
 	hist_name_dict[node[0]] = node[1]	
-
-
-G = nx.MultiDiGraph()
-G.add_nodes_from(node_names)
-G.add_edges_from(edges, medium="letter", weight=1)
-
-subnodes = []
-for node in G:
-	if G.degree(node) > 0:
-		subnodes.append(node)
-		
-subgraph = G.subgraph(subnodes)
 
 def sub_set(graph_name):
 	neighbour_dict = {}
@@ -38,7 +27,7 @@ def sub_set(graph_name):
 		neighbour_dict[node] = 'both'
 	return neighbour_dict
 
-und = nx.to_undirected(subgraph)
+und = nx.to_undirected(G)
 H_TC_sub = set(und.neighbors('11844')).union(set(und.neighbors('32545')))
 
 def flatten_graph(x):
@@ -51,10 +40,10 @@ def flatten_graph(x):
 			graph.add_edge(u, v, weight=w)
 	return graph
 
-MG0 = nx.MultiDiGraph(subgraph)
+MG0 = nx.MultiDiGraph(G)
 Graph0 = flatten_graph(MG0)
 
-MG1 = nx.MultiDiGraph(subgraph)
+MG1 = nx.MultiDiGraph(G)
 MG1.add_edge('32545', '11844', weight=132, medium="reference")
 MG1.add_edge('11844', '32545', weight=0, medium="reference") #as set, this places all references directed towards Henry VIII, giving him additional power in the network; changing the weight of each of these edges changes the direction in whaich the references are 'given'
 nx.write_gexf(MG1, 'references_graph.gexf')

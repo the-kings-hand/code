@@ -14,7 +14,7 @@ from _4_removal_model import *
 sys.stdout = sys.__stdout__
 
 
-with open(str(Path.cwd()) + 'data/1540-1547.csv','r') as edgescsv47: #edgelist
+with open(str(Path.cwd()) + '/data/1540-1547.csv','r') as edgescsv47: #edgelist
 	edgereader47 = csv.reader(edgescsv47) 
 	edges47 = [tuple(e) for e in edgereader47][1:] 
 
